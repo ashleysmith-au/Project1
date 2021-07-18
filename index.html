@@ -1,35 +1,78 @@
 <!DOCTYPE html>
 <head>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="Styles/styles.css">
+    <script src="main.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
+
 <body>
 
+<!-- Menu START -->
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="../Project%201/news.html">News</a>
+  <a href="../Project%201/sport.html">Sport</a>
+  <a href="../Project%201/music.html">Music</a>
+  <a href="../Project%201/fashion.html">Fashion</a>
+</div>
+
+  
 <ul>
-  <li><a  class="image active" href="#home">Home</a></li>
-  <li><a href="#news">News</a></li>
-  <li><a href="#contact">Sport</a></li>
-  <li><a href="#about">Music</a></li>
-  <li><a href="#about">Fashion</a></li>
+  <div id="mobileMenu">
+    <span class="mobileMenuNav" onclick="openNav()">&#9776;</span>
+    <span class="heroLogoMobile">[inthe]LOOP</span>
+  </div>
+  <li><a  class="image active" href="../Project%201/index.html">Home</a></li>
+  <li><a href="../Project%201/news.html">News</a></li>
+  <li><a href="../Project%201/sport.html">Sport</a></li>
+  <li><a href="../Project%201/music.html">Music</a></li>
+  <li><a href="../Project%201/fashion.html">Fashion</a></li>
+  <li class="heroLogo">[inthe]LOOP</li>
 </ul>
+<!-- Menu END -->
 
 
-<img class="hero-image" src="https://dummyimage.com/600x400/dbdbdb/ffffff&text=Hero+Image">
-
-<h1 id="pageTitle">Test Page</h1>
-<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
-
+<div class="hero-image"><div class="ImageOverlayHero"><p><b><i>#TRENDING</i></b><br>How does social media impact COVID-19?<br><span>Read Full Article Now</span></p></div></div>
+<p>&nbsp;</p>
+<h1 id="pageTitle">[inthe]LOOP</h1>
+<p class="introText">Get the latest in <b>News</b>, <b>Sport</b>, <b>Music</b> & <b>Fashion</b> right here at Loop.com. Make sure you follow us on socials to stay in the Loop!</p>
+<p>&nbsp;</p>
+<hr>
+<div class="videoHero">
+  <h2>SYDNEY LOCKDOWN FEARS</h2>
+<iframe width="420" height="315"
+src="https://www.youtube.com/embed/Q1hYOznrBbQ?autoplay=1&mute=1">
+</iframe>
+<p>Greater Sydney lockdown extended for another week. Fears delta variant will spread to VIC.</p>
+</div>
+<hr>
+<p>&nbsp;</p>
+<h2>Latest & Greatest</h2>
 <div class="row-articleGrid">
-  <div class="col-articleGrid articleGridImg1 Img"><div class="ImageOverlay"><p>News</p></div></div>
-  <div class="col-articleGrid articleGridImg2 Img"><div class="ImageOverlay"><p>News</p></div></div>
-  <div class="col-articleGrid articleGridImg3 Img"><div class="ImageOverlay"><p>News</p></div></div>
-  <div class="col-articleGrid articleGridImg4 Img"><div class="ImageOverlay"><p>News</p></div></div>
-  <div class="col-articleGrid articleGridImg5 Img"><div class="ImageOverlay"><p>News</p></div></div>
-  <div class="col-articleGrid articleGridImg6 Img"><div class="ImageOverlay"><p>News</p></div></div>
-  <div class="col-articleGrid articleGridImg7 Img"><div class="ImageOverlay"><p>News</p></div></div>
-  <div class="col-articleGrid articleGridImg8 Img"><div class="ImageOverlay"><p>News</p></div></div>
-  <div class="col-articleGrid articleGridImg9 Img"><div class="ImageOverlay"><p>News</p></div></div>
+  <div class="col-articleGrid articleGridImg1 Img" onclick="location.href='../Project%201/article1.html';"><div class="ImageOverlay"><p>Living end rocked Brisbane!<br> <span>view article</span></p></div></div>
+  <div class="col-articleGrid articleGridImg2 Img" onclick="location.href='../Project%201/article2.html';"><div class="ImageOverlay"><p>Riverstage opens after lockdown<br> <span>view article</span></p></div></div>
+  <div class="col-articleGrid articleGridImg3 Img" onclick="location.href='../Project%201/article3.html';"><div class="ImageOverlay"><p>12 of the hottest gyms in Brisbane<br> <span>view article</span></p></div></div>
+  <div class="col-articleGrid articleGridImg4 Img" onclick="location.href='../Project%201/article4.html';"><div class="ImageOverlay"><p>Countdown to the Olympics<br> <span>view article</span></p></div></div>
+  <div class="col-articleGrid articleGridImg5 Img" onclick="location.href='../Project%201/article5.html';"><div class="ImageOverlay"><p>Fashion week has begun!<br> <span>view article</span></p></div></div>
+  <div class="col-articleGrid articleGridImg6 Img" onclick="location.href='../Project%201/article6.html';"><div class="ImageOverlay"><p>COVID-19 Outbreak in Victoria<br> <span>view article</span></p></div></div>
+  <div class="col-articleGrid articleGridImg7 Img" onclick="location.href='../Project%201/article7.html';"><div class="ImageOverlay"><p>Chris Hemsworth set to star in new movie<br> <span>view article</span></p></div></div>
+  <div class="col-articleGrid articleGridImg8 Img" onclick="location.href='../Project%201/article8.html';"><div class="ImageOverlay"><p>Is your laptop killing you?<br> <span>view article</span></p></div></div>
+  <div class="col-articleGrid articleGridImg9 Img" onclick="location.href='../Project%201/article9.html';"><div class="ImageOverlay"><p>Property Market Update: July<br> <span>view article</span></p></div></div>
 </div>
 
 </body>
+<!-- Footer START -->
+<footer>
+<div class="footerBlock">
+<div class="footerLeft">
+<img src="images/IG.jpeg" class="IGLogo">
+<img src="images/FB.jpeg" class="FBLogo">
+</div>
+
+<div class="footerRight">
+<p>All rights reserved, 2020. </p>
+</div>
+</div>
+</footer>
+<!-- Footer END -->
 </html>
